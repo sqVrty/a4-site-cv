@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  //   font-family: "Arial", sans-serif;
+  --main-font: "BoxedRound", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+/* Стили для печати */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+}
+
+h1 {
+  font-size: 18px;
+  color: rgb(0, 0, 56);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(99, 99, 99);
+  line-height: 1.3em;
+}
+
+ul,
+li {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(99, 99, 99);
+  line-height: 1.3em;
+}

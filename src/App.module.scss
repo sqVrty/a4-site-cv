@@ -1,0 +1,56 @@
+.resumeA4 {
+  width: 210mm;
+  height: 297mm;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 30px 50px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+
+  /* Стили для печати */
+  @media print {
+    .resumeA4,
+    .resumeA4 * {
+      visibility: visible;
+    }
+
+    .resumeA4 {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 210mm;
+      height: 297mm;
+      margin: 0;
+      padding: 20mm;
+      box-shadow: none;
+    }
+  }
+
+  .contentWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    .greetingBlock {
+      display: flex;
+      flex-direction: column;
+
+      .infoAndContactsList {
+        list-style: none;
+        padding-left: 0;
+      }
+    }
+
+    .myPhoto {
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      right: 0;
+      width: 125px;
+      height: 125px;
+      border-radius: 10px;
+    }
+  }
+}
