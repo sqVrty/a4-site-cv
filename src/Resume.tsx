@@ -1,8 +1,9 @@
+import { forwardRef } from "react";
 import { useTranslation } from "react-i18next";
 
 import classes from "./Resume.module.scss";
 
-export default function Resume() {
+const Resume = forwardRef<HTMLDivElement>((props, ref) => {
   const { t } = useTranslation();
 
   const workExperienceData = [
@@ -42,7 +43,7 @@ export default function Resume() {
   ];
 
   return (
-    <div className={classes.resumeA4}>
+    <div className={classes.resumeA4} ref={ref}>
       <div className={classes.contentWrapper}>
         <div className={classes.greetingBlock}>
           <h1>Ташликович Сергей, React Frontend Developer</h1>
@@ -65,10 +66,11 @@ export default function Resume() {
             высоконагруженных приложений (50+ страниц) с глубокой оптимизацией
             производительности. Работал фрилансером, что научило меня эффективно
             коммуницировать с заказчиками и работать в условиях сжатых сроков.
-            Постоянно изучаю новые технологии (<strong>React</strong>,{" "}
-            <strong>Next.js</strong>), слежу за трендами через профильные
-            паблики. Имею предпринимательский опыт — предлагал клиентам решения,
-            повышающие их продажи. Свободно коммуницирую на английском.
+            Постоянно ищу и изучаю информацию о нативном <strong>JS</strong> или
+            фреймворках, слежу за трендами через профильные паблики. Имею
+            предпринимательский опыт — предлагал клиентам решения, повышающие их
+            продажи. Свободно коммуницирую на английском. Буду рад работать в
+            компании, где также любят технологии.
           </p>
         </div>
 
@@ -128,4 +130,6 @@ export default function Resume() {
       </div>
     </div>
   );
-}
+});
+
+export default Resume;
