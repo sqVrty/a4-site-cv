@@ -52,5 +52,28 @@
       height: 125px;
       border-radius: 10px;
     }
+
+    .workExperienceBlock {
+      .blocksWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 7.5px;
+
+        .stackHeaderText {
+          text-decoration: underline;
+        }
+      }
+
+      .notCommercialWorkExperienceBlock {
+        margin-top: 7.5px;
+      }
+    }
+
+    .notCommercialWorkExperienceBlock {
+      .notCommercialWorkExperienceList {
+        padding-left: 40px;
+        list-style-type: decimal;
+      }
+    }
   }
 }
