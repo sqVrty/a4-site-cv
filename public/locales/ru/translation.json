@@ -1,3 +1,62 @@
 {
-  "pypypy": "СЛАВА АЛЛАХУ ЕЖЖЖИ!!!"
+  "resume": {
+    "title": "Ташликович Сергей, React Frontend Developer",
+    "contacts": {
+      "email": "E-mail: sergeu-tash@yandex.ru",
+      "phone": "Телефон: +7(989)049-17-01",
+      "telegram": "Telegram: @sqVrty",
+      "website": "Визитка: https://stash-cv.website",
+      "location": "Местоположение: Москва, Россия"
+    },
+    "about": {
+      "title": "Обо мне",
+      "content": "Имею опыт создания как простых лендингов, так и сложных высоконагруженных приложений (50+ страниц) с глубокой оптимизацией производительности. Работал фрилансером, что научило меня эффективно коммуницировать с заказчиками и работать в условиях сжатых сроков. Постоянно ищу и изучаю информацию о нативном <strong>JS</strong> или фреймворках, слежу за трендами через профильные паблики. Имею предпринимательский опыт — предлагал клиентам решения, повышающие их продажи. Свободно коммуницирую на английском. Буду рад работать в компании, где также любят технологии."
+    },
+    "skills": {
+      "title": "Навыки",
+      "content": "JavaScript, TypeScript, React.js, Next.js, Redux, Redux Toolkit, HTML, CSS (flex, grid), Tailwind CSS, Git, REST API, Webpack, Vite, Jest, React Testing Library (RTL), ES Lint, Английский B2+"
+    },
+    "experience": {
+      "title": "Опыт работы",
+      "professional": "Опыт до профессиональной разработки",
+      "stack": "Stack"
+    },
+    "education": {
+      "title": "Образование",
+      "period": "2022 — 2026",
+      "content": "Информатика и вычислительная техника 09.03.01, МГТУ им. Н.Э. Баумана"
+    },
+    "workExperience": [
+      {
+        "post": "React/React Native Frontend Developer",
+        "companyName": "EmotionalEgghead",
+        "dateStart": "Август, 2023",
+        "dateEnd": "Апрель, 2024",
+        "desc": "Разработал с нуля SPA на Next.js (50+ страниц): SSR/SSG для SEO, динамические роуты, мультиязычность (i18n).<br/>Ключевые реализации: система ролей с авторизацией через JWT, видеоплатформа с кастомным плеером, интерактивные дашборды с графиками (Chart.js).<br/>Оптимизация производительности: сократил TTI на 35% через code splitting + lazy loading, уменьшил bundle size на 30% (анализ через Webpack Bundle Analyzer), настроил кэширование API-запросов (SWR).<br/>Процессы и сотрудничество: настроил CI/CD (GitHub Actions), тесная работа с CEO: предлагал решения для бизнес-логики (увеличили конверсию на 20%), получил предложение стать совладельцем продукта за значительный вклад.",
+        "stack": "Next.js, React, TypeScript, Redux Toolkit, Redux Thunk, MUI, CSS Modules"
+      },
+      {
+        "post": "React Frontend Developer",
+        "companyName": "МГТУ им. Баумана (Электронное Образование)",
+        "dateStart": "Ноябрь, 2022",
+        "dateEnd": "Май, 2023",
+        "desc": "Разрабатывал интерфейсы для системы управления общежитиями.<br/>Ключевые задачи: работа в команде из 3 фронтендеров (code review, git flow), рефакторинг legacy-кода, внедрение TypeScript, настройка разделения dev/prod окружений.",
+        "stack": "React, JavaScript/TypeScript, Redux, Prime React, SCSS, GitLab CI"
+      }
+    ],
+    "nonCommercialExperience": [
+      {
+        "post": "Фриланс",
+        "stack": "Vue 2/3, React, Redux, Effector, Zustand, Tailwind..",
+        "dateStart": "Июнь, 2022",
+        "dateEnd": "Июль, 2023"
+      },
+      {
+        "post": "Преподаватель JavaScript",
+        "stack": "JavaScript",
+        "dateStart": "Сентябрь, 2022",
+        "dateEnd": "Ноябрь, 2022"
+      }
+    ]
+  }
 }

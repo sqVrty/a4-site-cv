@@ -1,3 +1,62 @@
 {
-  "pypypy": "TRUMP IS WINNER!"
+  "resume": {
+    "title": "Sergey Tashlikovich, React Frontend Developer",
+    "contacts": {
+      "email": "E-mail: sergeu-tash@yandex.ru",
+      "phone": "Phone: +7(989)049-17-01",
+      "telegram": "Telegram: @sqVrty",
+      "website": "Portfolio: https://stash-cv.website",
+      "location": "Location: Moscow, Russia"
+    },
+    "about": {
+      "title": "About Me",
+      "content": "I have experience creating both simple landing pages and complex high-load applications (50+ pages) with deep performance optimization. Working as a freelancer taught me to communicate effectively with clients and work under tight deadlines. I constantly research and study information about native <strong>JS</strong> or frameworks, following trends through professional communities. I have entrepreneurial experience - offering clients solutions that increased their sales. I communicate fluently in English. I would be happy to work in a company that also loves technology."
+    },
+    "skills": {
+      "title": "Skills",
+      "content": "JavaScript, TypeScript, React.js, Next.js, Redux, Redux Toolkit, HTML, CSS (flex, grid), Tailwind CSS, Git, REST API, Webpack, Vite, Jest, React Testing Library (RTL), ES Lint, English B2+"
+    },
+    "experience": {
+      "title": "Work Experience",
+      "professional": "Pre-professional Experience",
+      "stack": "Stack"
+    },
+    "education": {
+      "title": "Education",
+      "period": "2022 — 2026",
+      "content": "Computer Science and Engineering 09.03.01, Bauman Moscow State Technical University"
+    },
+    "workExperience": [
+      {
+        "post": "React/React Native Frontend Developer",
+        "companyName": "EmotionalEgghead",
+        "dateStart": "August, 2023",
+        "dateEnd": "April, 2024",
+        "desc": "Developed a SPA from scratch using Next.js (50+ pages): SSR/SSG for SEO, dynamic routes, multilingual support (i18n).<br/>Key implementations: role-based authorization system with JWT, video platform with custom player, interactive dashboards with charts (Chart.js).<br/>Performance optimization: reduced TTI by 35% through code splitting + lazy loading, decreased bundle size by 30% (analysis via Webpack Bundle Analyzer), configured API request caching (SWR).<br/>Processes and collaboration: set up CI/CD (GitHub Actions), close work with CEO: proposed business logic solutions (increased conversion by 20%), received an offer to become a co-owner of the product for significant contributions.",
+        "stack": "Next.js, React, TypeScript, Redux Toolkit, Redux Thunk, MUI, CSS Modules"
+      },
+      {
+        "post": "React Frontend Developer",
+        "companyName": "Bauman University (E-Learning)",
+        "dateStart": "November, 2022",
+        "dateEnd": "May, 2023",
+        "desc": "Developed interfaces for a dormitory management system.<br/>Key tasks: worked in a team of 3 frontend developers (code review, git flow), refactored legacy code, implemented TypeScript, configured dev/prod environment separation.",
+        "stack": "React, JavaScript/TypeScript, Redux, Prime React, SCSS, GitLab CI"
+      }
+    ],
+    "nonCommercialExperience": [
+      {
+        "post": "Freelance",
+        "stack": "Vue 2/3, React, Redux, Effector, Zustand, Tailwind..",
+        "dateStart": "June, 2022",
+        "dateEnd": "July, 2023"
+      },
+      {
+        "post": "JavaScript Instructor",
+        "stack": "JavaScript",
+        "dateStart": "September, 2022",
+        "dateEnd": "November, 2022"
+      }
+    ]
+  }
 }
