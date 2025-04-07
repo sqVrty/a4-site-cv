@@ -1,6 +1,10 @@
-import classes from "./App.module.scss";
+import { useTranslation } from "react-i18next";
 
-export default function App() {
+import classes from "./Resume.module.scss";
+
+export default function Resume() {
+  const { t } = useTranslation();
+
   const workExperienceData = [
     {
       post: "React/React Native Frontend Developer",
@@ -49,6 +53,7 @@ export default function App() {
             <li>Визитка: https://stash-cv.website</li>
             <li>Местоположение: Москва, Россия</li>
           </ul>
+          <h1>{t("pypypy")}</h1>
         </div>
 
         <img src="myPhoto.PNG" alt="my_photo" className={classes.myPhoto} />
