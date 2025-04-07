@@ -1,5 +1,7 @@
-import { forwardRef } from "react";
+import { useMemo, forwardRef } from "react";
 import { useTranslation } from "react-i18next";
+
+import { useExperienceCalculator } from "./hooks/useExperienceCalculator";
 
 import classes from "./Resume.module.scss";
 
@@ -21,6 +23,7 @@ type NonCommercialExperienceItem = {
 
 const Resume = forwardRef<HTMLDivElement>((props, ref) => {
   const { t } = useTranslation();
+  const experienceText = useExperienceCalculator();
 
   return (
     <div className={classes.resumeA4} ref={ref}>
@@ -49,7 +52,10 @@ const Resume = forwardRef<HTMLDivElement>((props, ref) => {
         </div>
 
         <div className={classes.workExperienceBlock}>
-          <h1>{t("resume.experience.title")}</h1>
+          <h1>
+            {t("resume.experience.title")} (
+            <span className={classes.totalExperience}>{experienceText}</span>)
+          </h1>
           <div className={classes.blocksWrapper}>
             {(
               t("resume.workExperience", {
