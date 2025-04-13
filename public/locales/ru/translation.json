@@ -4,7 +4,7 @@
     "contacts": {
       "email": "E-mail: sergeu-tash@yandex.ru",
       "phone": "Телефон: +7(989)049-17-01",
-      "telegram": "Telegram: @sqVrty",
+      "telegram": "Telegram: @sqvrty",
       "website": "Визитка: https://stash-cv.website",
       "location": "Местоположение: Москва, Россия"
     },
@@ -33,15 +33,15 @@
         "dateStart": "Август, 2023",
         "dateEnd": "Апрель, 2024",
         "desc": "Разработал с нуля SPA на Next.js (50+ страниц): SSR/SSG для SEO, динамические роуты, мультиязычность (i18n).<br/>Ключевые реализации: система ролей с авторизацией через JWT, видеоплатформа с кастомным плеером, интерактивные дашборды с графиками (Chart.js).<br/>Оптимизация производительности: сократил TTI на 35% через code splitting + lazy loading, уменьшил bundle size на 30% (анализ через Webpack Bundle Analyzer), настроил кэширование API-запросов (SWR).<br/>Процессы и сотрудничество: настроил CI/CD (GitHub Actions), тесная работа с CEO: предлагал решения для бизнес-логики (увеличили конверсию на 20%), получил предложение стать совладельцем продукта за значительный вклад.",
-        "stack": "Next.js, React, TypeScript, Redux Toolkit, Redux Thunk, MUI, CSS Modules"
+        "stack": "Next.js, React, TypeScript, Redux Toolkit, Redux Thunk, Vite, MUI, CSS Modules"
       },
       {
         "post": "React Frontend Developer",
-        "companyName": "МГТУ им. Баумана (Электронное Образование)",
+        "companyName": "Black Wall Group",
         "dateStart": "Ноябрь, 2022",
         "dateEnd": "Май, 2023",
-        "desc": "Разрабатывал интерфейсы для системы управления общежитиями.<br/>Ключевые задачи: работа в команде из 3 фронтендеров (code review, git flow), рефакторинг legacy-кода, внедрение TypeScript, настройка разделения dev/prod окружений.",
-        "stack": "React, JavaScript/TypeScript, Redux, Prime React, SCSS, GitLab CI"
+        "desc": "Разрабатывал админ-панель для мобильного приложения в команде с Middle+ Frontend-разработчиком.<br/>Ключевые задачи: реализация сложных форм и валидации, создание переиспользуемых UI-компонентов, оптимизация сборки, code review и совместный рефакторинг кодовой базы.",
+        "stack": "React, TypeScript, Redux Toolkit, Prime React, Webpack, Git Flow"
       }
     ],
     "nonCommercialExperience": [
